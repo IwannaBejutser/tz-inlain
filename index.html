@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>Inline</title>
+  <link
+    rel="preload"
+    href="fonts/Montserrat-Bold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Montserrat-SemiBold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Montserrat-Regular.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Montserrat-Medium.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+  <div class="container header__container">
+    <div class="tabs header__tabs">
+      <ul class="list-reset tabs__nav">
+        <li class="tabs__nav-item">
+          <button
+            class="btn-reset tabs__nav-btn active"
+            type="button"
+            data-tab="0"
+          >
+            Описание
+          </button>
+        </li>
+        <li class="tabs__nav-item">
+          <button class="btn-reset tabs__nav-btn" type="button" data-tab="1">
+            Отзывы
+          </button>
+        </li>
+        <li class="tabs__nav-item">
+          <button class="btn-reset tabs__nav-btn" type="button" data-tab="2">
+            Откуда?
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+      <main class="main"><section class="hero offset">
+  <div class="container hero__container">
+    <div class="hero__tabs-panel description" data-tab-content="0">
+      <p class="text-mobile description__text">
+        Томаты на ветке красные (помидоры) — более плотные, яркие и ароматные по
+        сравнению с обычными. Они славятся низкой калорийностью и высоким
+        содержанием витаминов, клетчатки, пектина и минеральных веществ. В них
+        содержатся также каротиноиды, кислоты и мощный антиоксидант ликопин.
+      </p>
+      <p class="text-mobile description__text">
+        Помидор — незаменимый продукт в мировой кулинарии. Он — основа
+        многочисленных соусов, маринадов, кетчупа, испанского холодного супа
+        Гаспачо или итальянской закуски Капрезе. С ним делают салаты, его тушат,
+        солят и консервируют. Помидоры на веточке особенно красиво смотрятся в
+        запеченном виде.
+      </p>
+      <div class="description__wrapper">
+        <div class="characteristic description__characteristic">
+          <h2 class="title-table characteristic__title">Характеристики</h2>
+          <table class="description__table characteristic__table">
+            <tr class="description__row characteristic__row">
+              <th class="description__header characteristic__header">Страна</th>
+              <td class="description__data characteristic__data">Россия</td>
+            </tr>
+            <tr class="description__row characteristic__row">
+              <th class="description__header characteristic__header">
+                Поставщик
+              </th>
+              <td class="description__data characteristic__data">
+                <span>Фермеры:</span> Наталья и Юрий Лейшан
+              </td>
+            </tr>
+            <tr class="description__row characteristic__row">
+              <th class="description__header characteristic__header">
+                Тип упаковки
+              </th>
+              <td class="description__data characteristic__data">
+                Крафтовый пакет
+              </td>
+            </tr>
+            <tr class="description__row characteristic__row">
+              <th class="description__header characteristic__header">
+                Сертификаты качества
+              </th>
+              <td class="description__data characteristic__data">В наличии</td>
+            </tr>
+          </table>
+        </div>
+        <div class="compound description__compound">
+          <h2 class="title-table compound__title">Пищевая ценность на 100г</h2>
+          <table class="description__table compound__table">
+            <tr class="description__row compound__row">
+              <th class="description__header compound__header">
+                Энергетическая ценность
+              </th>
+              <td class="description__data compound__data">18 кКал</td>
+            </tr>
+            <tr class="description__row compound__row">
+              <th class="description__header compound__header">Белки</th>
+              <td class="description__data compound__data">0.9 г</td>
+            </tr>
+            <tr class="description__row compound__row">
+              <th class="description__header compound__header">Жиры</th>
+              <td class="description__data compound__data">0.2 г</td>
+            </tr>
+            <tr class="description__row compound__row">
+              <th class="description__header compound__header">Углеводы</th>
+              <td class="description__data compound__data">3.9 г</td>
+            </tr>
+          </table>
+        </div>
+        <div class="storage description__storage">
+          <h2 class="title-table storage__title">Условия хранения</h2>
+          <table class="description__table storage__table">
+            <tr class="description__row storage__row">
+              <th class="description__header storage__header">Срок хранения</th>
+              <td class="description__data storage__data">7 дней</td>
+            </tr>
+            <tr class="description__row storage__row">
+              <th class="description__header storage__header">
+                Температура хранения
+              </th>
+              <td class="description__data storage__data">от 3 ° до 7 °</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="similar offset description__similar">
+        <h2 class="similar__title">С этим товаром покупают</h2>
+        <div class="swiper similar__swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="similar__article">
+                <button class="btn-reset similar__article-button-like">
+                  <img
+                    loading="lazy"
+                    src="./img/svg/product-like.svg"
+                    class="image similar__article-image-like"
+                    width="20"
+                    height="18"
+                    alt="Сердце"
+                  />
+                </button>
+                <img
+                  class="image similar__article-image"
+                  src="./img/product-milk.png"
+                  alt="Масло сливочное 82 %"
+                />
+                <div class="similar__article-wrapper">
+                  <a href="#" class="similar__article-link">
+                    <div class="similar__article-description">
+                      <h3 class="similar__article-title">Молоко 3,2%</h3>
+                      <span class="similar__article-autor"
+                        >от Вадима Рошки</span
+                      >
+                    </div>
+                  </a>
+                  <div class="similar__down">
+                    <div class="similar__article-price">
+                      <span class="similar__article-current-price">95 ₽</span>
+                      <span class="similar__article-separator">/</span>
+                      <span class="similar__article-capacity">0,93 л</span>
+                    </div>
+                    <button class="btn-reset pc-vision similar__atricle-cart">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-cart.svg"
+                        class="image similar__article-icon-cart"
+                        width="24"
+                        height="24"
+                        alt="В корзину"
+                      />
+                    </button>
+                    <button
+                      class="btn-reset small-mobile-vision similar__atricle-cart"
+                    >
+                      В корзину
+                      <div class="similar__article-cart-wrapper">
+                        <img
+                          loading="lazy"
+                          src="./img/svg/product-plus.svg"
+                          class="image similar__article-icon-plus"
+                          width="10"
+                          height="10"
+                          alt="В корзину"
+                        />
+                        <img
+                          loading="lazy"
+                          src="./img/svg/product-cart-green.svg"
+                          class="image similar__article-icon-cart similar__article-icon-cart-green"
+                          width="16"
+                          height="16"
+                          alt="В корзину"
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <ul
+                    class="list-reset pc-vision similar__article-rating similar__list"
+                  >
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="similar__article">
+                <button class="btn-reset similar__article-button-like">
+                  <img
+                    loading="lazy"
+                    src="./img/svg/product-like.svg"
+                    class="image similar__article-image-like"
+                    width="20"
+                    height="18"
+                    alt="Сердце"
+                  />
+                </button>
+                <img
+                  class="image similar__article-image"
+                  src="./img/product-bread.png"
+                  alt="Хлеб пшеничный"
+                />
+                <div class="similar__article-wrapper">
+                  <a href="#" class="similar__article-link">
+                    <div class="similar__article-description">
+                      <h3 class="similar__article-title">Хлеб пшеничный</h3>
+                      <span class="similar__article-autor"
+                        >от Дарьи и Марии</span
+                      >
+                    </div>
+                  </a>
+                  <div class="similar__down">
+                    <div class="similar__article-price">
+                      <span class="similar__article-current-price">95 ₽</span>
+                      <span class="similar__article-separator">/</span>
+                      <span class="similar__article-capacity">930 г </span>
+                    </div>
+                    <button class="btn-reset pc-vision similar__atricle-cart">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-cart.svg"
+                        class="image similar__article-icon-cart"
+                        width="24"
+                        height="24"
+                        alt="В корзину"
+                      />
+                    </button>
+                    <button
+                      class="btn-reset small-mobile-vision similar__atricle-cart"
+                    >
+                      В корзину
+                      <div class="similar__article-cart-wrapper">
+                        <img
+                          loading="lazy"
+                          src="./img/svg/product-plus.svg"
+                          class="image similar__article-icon-plus"
+                          width="10"
+                          height="10"
+                          alt="В корзину"
+                        />
+                        <img
+                          loading="lazy"
+                          src="./img/svg/product-cart-green.svg"
+                          class="image similar__article-icon-cart similar__article-icon-cart-green"
+                          width="16"
+                          height="16"
+                          alt="В корзину"
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <ul
+                    class="list-reset pc-vision similar__article-rating similar__list"
+                  >
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="similar__article">
+                <button class="btn-reset similar__article-button-like">
+                  <img
+                    loading="lazy"
+                    src="./img/svg/product-like.svg"
+                    class="image similar__article-image-like"
+                    width="20"
+                    height="18"
+                    alt="Сердце"
+                  />
+                </button>
+                <img
+                  class="image similar__article-image"
+                  src="./img/product-egg.png"
+                  alt="Яйца куриные"
+                />
+                <div class="similar__article-wrapper">
+                  <a href="#" class="similar__article-link">
+                    <div class="similar__article-description">
+                      <h3 class="similar__article-title">Яйца куриные</h3>
+                      <span class="similar__article-autor"
+                        >от Евгения Рошаль</span
+                      >
+                    </div>
+                  </a>
+                  <div class="similar__down">
+                    <div class="similar__article-price">
+                      <span class="similar__article-current-price">120 ₽</span>
+                      <span class="similar__article-separator">/</span>
+                      <span class="similar__article-capacity"> 10 шт </span>
+                    </div>
+                    <button class="btn-reset pc-vision similar__atricle-cart">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-cart.svg"
+                        class="image similar__article-icon-cart"
+                        width="24"
+                        height="24"
+                        alt="В корзину"
+                      />
+                    </button>
+                    <button
+                      class="btn-reset small-mobile-vision similar__atricle-cart"
+                    >
+                      В корзину
+                      <div class="similar__article-cart-wrapper">
+                        <img
+                          loading="lazy"
+                          src="./img/svg/product-plus.svg"
+                          class="image similar__article-icon-plus"
+                          width="10"
+                          height="10"
+                          alt="В корзину"
+                        />
+                        <img
+                          loading="lazy"
+                          src="./img/svg/product-cart-green.svg"
+                          class="image similar__article-icon-cart similar__article-icon-cart-green"
+                          width="16"
+                          height="16"
+                          alt="В корзину"
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <ul
+                    class="list-reset pc-vision similar__article-rating similar__list"
+                  >
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="similar__article">
+                <button class="btn-reset similar__article-button-like">
+                  <img
+                    loading="lazy"
+                    src="./img/svg/product-like.svg"
+                    class="image similar__article-image-like"
+                    width="20"
+                    height="18"
+                    alt="Сердце"
+                  />
+                </button>
+                <img
+                  class="image similar__article-image"
+                  src="./img/product-oil.png"
+                  alt="Масло сливочное 82 %"
+                />
+                <div class="similar__article-wrapper">
+                  <a href="#" class="similar__article-link">
+                    <div class="similar__article-description">
+                      <h3 class="similar__article-title">
+                        Масло сливочное 82%
+                      </h3>
+                      <span class="similar__article-autor"
+                        >от Вадима Рошки</span
+                      >
+                    </div>
+                  </a>
+                  <div class="similar__down">
+                    <div class="similar__article-price">
+                      <span class="similar__article-current-price">290 ₽</span>
+                      <span class="similar__article-separator">/</span>
+                      <span class="similar__article-capacity"> 250 г</span>
+                    </div>
+                    <button class="btn-reset pc-vision similar__atricle-cart">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-cart.svg"
+                        class="image similar__article-icon-cart"
+                        width="24"
+                        height="24"
+                        alt="В корзину"
+                      />
+                    </button>
+                    <button
+                      class="btn-reset small-mobile-vision similar__atricle-cart"
+                    >
+                      В корзину
+                      <div class="similar__article-cart-wrapper">
+                        <img
+                          loading="lazy"
+                          src="./img/svg/product-plus.svg"
+                          class="image similar__article-icon-plus"
+                          width="10"
+                          height="10"
+                          alt="В корзину"
+                        />
+                        <img
+                          loading="lazy"
+                          src="./img/svg/product-cart-green.svg"
+                          class="image similar__article-icon-cart similar__article-icon-cart-green"
+                          width="16"
+                          height="16"
+                          alt="В корзину"
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <ul
+                    class="list-reset pc-vision similar__article-rating similar__list"
+                  >
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                    <li class="similar__item">
+                      <img
+                        loading="lazy"
+                        src="./img/svg/product-star.svg"
+                        class="image similar__article-icon-star"
+                        width="15"
+                        height="14"
+                        alt="Звезда"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__tabs-panel review" data-tab-content="1">
+      <p class="text-mobile review__paragraph">
+        Помогите нам стать ещё лучше. Оставляя отзывы, вы таким образом
+        указываете нам на зоны роста. Мы правда, читаем все отзывы.
+      </p>
+      <button class="btn-reset review__button">Оставить отзыв</button>
+    </div>
+    <div class="hero__tabs-panel where" data-tab-content="2">
+      <div class="where__wrapper">
+        <div class="where__left">
+          <p class="text-mobile where__left-paragraph">
+            Томаты на ветке красные (помидоры) — более плотные, яркие и
+            ароматные по сравнению с обычными. Они славятся низкой калорийностью
+            и высоким содержанием витаминов, клетчатки, пектина и минеральных
+            веществ. В них содержатся также каротиноиды, кислоты и мощный
+            антиоксидант ликопин.
+          </p>
+          <p class="text-mobile where__left-paragraph">
+            Помидор — незаменимый продукт в мировой кулинарии. Он — основа
+            многочисленных соусов, маринадов, кетчупа, испанского холодного супа
+            Гаспачо или итальянской закуски Капрезе. С ним делают салаты, его
+            тушат, солят и консервируют. Помидоры на веточке особенно красиво
+            смотрятся в запеченном виде.
+          </p>
+        </div>
+        <div class="where__right">
+          <span class="where__span">Наталья и Юрий Лейшан</span>
+          <img
+            class="where__image"
+            src="./img/photo-where.png"
+            alt="Человек с помидорами"
+          />
+          <ul class="list-reset pc-vision where__list">
+            <li class="where__item">
+              <button class="btn-reset where__button">Сертификаты</button>
+            </li>
+            <li class="where__item">
+              <button class="btn-reset where__button">О поставщике</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+      <footer class="footer">
+  <div class="container"></div>
+</footer>
+
+    </div>
+  </body>
+</html>
